@@ -1,4 +1,4 @@
-var choice = prompt("Rock, Paper, or Scissors?")
+let choice = prompt("Rock, Paper, or Scissors?")
 if (choice.toLowerCase() == "rock"){
   console.log("You used Rock!")
 }
@@ -9,19 +9,19 @@ if (choice.toLowerCase() == "scissors"){
   console.log("You used Scissors!")
 }
 
-var cpuChoice = Math.random();
-if (cpuChoice < 0.34){
-    cpuChoice = "Rock";
-    console.log("CPU used Rock!")
-} else if(cpuChoice <= 0.67){
-    cpuChoice = "Paper";
-    console.log("Cpu used Paper!")
+let computer = Math.random();
+if (computer < 0.34){
+    computer = "Rock";
+    console.log("computer used Rock!")
+} else if(computer <= 0.67){
+    computer = "Paper";
+    console.log("computer used Paper!")
 } else{
-    cpuChoice = "Scissors";
-    console.log("CPU used Scissors!")
+    computer = "Scissors";
+    console.log("computer used Scissors!")
 }
 
-var winner = function(player1,player2){
+let winner = function(player1,player2){
   if(player1===player2){
     console.log("The result is a tie!");
     }
@@ -50,4 +50,4 @@ var winner = function(player1,player2){
     }
   }
 };
-winner(choice,cpuChoice);
+winner(choice,computer);
