@@ -60,7 +60,7 @@ function updateScoreboard(roundResult){
   let computerSign = document.getElementById('cpu' + round.toString())
   switch (playerSelection){
     case 'ROCK':
-      playerSign.innerText = '🗿'
+      playerSign.innerText = 'O'
       break
     case 'PAPER':
       playerSign.innerText = '🧻'
@@ -71,7 +71,7 @@ function updateScoreboard(roundResult){
   }
   switch (computerSelection){
     case 'ROCK':
-      computerSign.innerText = '🗿'
+      computerSign.innerText = 'O'
       break
     case 'PAPER':
       computerSign.innerText = '🧻'
