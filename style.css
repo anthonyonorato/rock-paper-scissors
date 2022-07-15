@@ -1,10 +1,10 @@
 :root {
-    --primary-light: #c0bfb9;
+    --primary-light: #c27604;
     --primary-dark: #cecece;
-    --secondary-dark: #A22C29;
+    --secondary-dark: #c27604;
     --secondary-dark-hover: #da3d3a;
     --secondary-dark-active: rgb(236, 80, 72);
-    --header: #0A100D;
+    --header: #012140;
 }
 
 
@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 40px 0px;
-    color: #da3d3a;
+    color: #c27604;
     background-color: var(--header);
     font-size: 60px;
 
@@ -45,7 +45,7 @@ body {
 }
 
 .h1 {
-    font-size: 40px;
+    font-size: 20px;
     color: #0A100D;
     font-weight: 900;
     margin-top: 50px;
@@ -57,7 +57,7 @@ body {
     border: 4px solid #0A100D;
     border-radius: 8px;
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 5px;
     gap: 3px;
 }
@@ -78,7 +78,7 @@ body {
 .team2 {
     font-size: 50px;
     color: black;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .team1 {
