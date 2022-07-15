@@ -66,7 +66,7 @@ function updateScoreboard(roundResult){
       playerSign.innerText = '🧻'
       break
     case 'SCISSORS':
-      playerSign.innerText = '✂️'
+      playerSign.innerText = '✂'
       break
   }
   switch (computerSelection){
@@ -77,7 +77,7 @@ function updateScoreboard(roundResult){
       computerSign.innerText = '🧻'
       break
     case 'SCISSORS':
-      computerSign.innerText = '✂️'
+      computerSign.innerText = '✂'
       break
   }
   switch (roundResult){
