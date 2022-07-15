@@ -77,7 +77,7 @@ function updateScoreboard(roundResult){
       computerSign.innerText = '🧻'
       break
     case 'SCISSORS':
-      computerSign.innerText = '✄'
+      computerSign.innerText = '✂️'
       break
   }
   switch (roundResult){
